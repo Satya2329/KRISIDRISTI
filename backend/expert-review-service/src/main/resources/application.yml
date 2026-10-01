@@ -16,3 +16,12 @@ spring:
     properties:
       hibernate:
         format_sql: true
+  eureka:
+    client:
+      fetch-registry: true
+      register-with-eureka: true
+      service-url:
+        defaultZone: http://localhost:1234/eureka
+
+    instance:
+      ip-address: true
