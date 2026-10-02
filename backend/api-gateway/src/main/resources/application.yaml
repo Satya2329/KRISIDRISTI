@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: api-gateway
+    username: root
+    password: a34862@TKRS
+    url: jdbc:mysql://localhost:3306/expertreview
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+        hibernate:
+        ddl-auto: update
+        show-sql: true
+
